@@ -1,0 +1,85 @@
+*{margin: auto;}
+
+.font-style{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 39px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+ /* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 114px; 
+}
+.btn{
+    padding: 12px 28px 12px 28px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border:none ;
+    color: azure;
+}
+/* banner style*/
+#bng{
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+    width: 1120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 64;
+    padding: 56px 71px 56px 71px;
+}
+/* vision section */
+.vision-container{
+        display: flex;
+        gap:24px ;
+}
+.vision{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+.vision2{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+.vision3{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+.visions{
+    padding: 32px;
+}
+    
+/* vision section buttton style */
+.btn1{
+    width: 118px;
+    height: 36px ;
+    border-radius: 8px;
+    border:none ;
+    color: azure;
+    background: rgb(84, 144, 245);
+}
+.btn2{
+    width: 118px;
+    height: 36px ;
+    border-radius: 8px;
+    border:none ;
+    color: azure;
+    background: rgb(9, 161, 92);
+}
+.btn3{
+    width: 118px;
+    height: 36px ;
+    border-radius: 8px;
+    border:none ;
+    color: azure;
+    background: rgb(255, 194, 57);
+}
