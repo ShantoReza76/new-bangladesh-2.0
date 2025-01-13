@@ -1,19 +1,20 @@
-*{margin: auto;}
+*{margin: 0 auto;}
 
 .font-style{
     color: rgb(14, 14, 14);
-font-family: Fira Sans;
-font-size: 39px;
-font-weight: 400;
-line-height: 48px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Fira Sans;
+    font-size: 28px;
+    font-weight: 200px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
 }
  /* nav style */
 nav{
+    width: 1120px;
     display: flex;
     justify-content: space-between;
-    padding: 18px 114px; 
+    padding: 18px ; 
 }
 .btn{
     padding: 12px 28px 12px 28px;
@@ -22,11 +23,21 @@ nav{
     border:none ;
     color: azure;
 }
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom:80px ;
+
+
+}
 /* banner style*/
 #bng{
     background-color: rgb(198, 228, 214);
     border-radius: 24px;
     width: 1120px;
+    height: 398px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -34,28 +45,99 @@ nav{
     gap: 64;
     padding: 56px 71px 56px 71px;
 }
+
+.bnr-h{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.bnr-p{
+    Font: Fira Sans;
+    Font weight: 500;
+    Font size: 24px;
+    
+}
 /* vision section */
+.visions{
+   
+}
+.section-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.section-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
 .vision-container{
         display: flex;
-        gap:24px ;
+        gap:24px ; 
+}
+.vision-container h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.vision-container p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 .vision{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    gap: 24;
+    padding: 32px;
     box-sizing: border-box;
     border-radius: 16px;
     background: rgba(84, 144, 245, 0.2);
 }
 .vision2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 32px;
     box-sizing: border-box;
     border-radius: 16px;
     background: rgb(198, 228, 214);
 }
 .vision3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 24px;
     box-sizing: border-box;
     border-radius: 16px;
     background: rgb(247, 235, 207);
 }
 .visions{
-    padding: 32px;
+    width: 1280px;
 }
     
 /* vision section buttton style */
@@ -82,4 +164,85 @@ nav{
     border:none ;
     color: azure;
     background: rgb(255, 194, 57);
+}
+/* news card style */
+
+.news-section{
+    width: 1280px;
+    margin-top: 80px;
+}
+.news-card1{
+    width: 1280px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+}
+.news-card1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+    padding: 48px;
+}
+.news1{
+    width: 744px;
+    height: 290px;
+}
+.news1 p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.news1 h4{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.img1 img{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+.news-card2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+    padding: 48px;
+}
+.donation{
+   width: 1280px;
+}
+.dnt-container{
+    display: flex;
+    justify-content: space-between;
+    gap:24px;
+    padding: 40px;
+  
+}
+.dnt-box{
+    width: 280px;
+    height: 128px;
+    padding: 35px;
+}
+.dnt-box{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255)
+    
+}
+#tk{
+    width: 1160px;
+    height: 64px;
+    font-size: 14pt;
 }
