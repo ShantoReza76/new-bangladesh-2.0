@@ -4,19 +4,27 @@
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
     font-size: 28px;
-    font-weight: 200px;
-    line-height: 38px;
+    font-weight: 400px;
+    line-height: 48px;
     letter-spacing: 0%;
     text-align: left;
 }
  /* nav style */
 nav{
-    width: 1120px;
+    width: 1280px;
     display: flex;
     justify-content: space-between;
-    padding: 18px ; 
+    padding: 18px ;
+} 
+button:hover{
+    background-color:purple;
+    font-size: 16px;
 }
-.btn{
+.btn:hover{
+    background-color:rgb(239, 6, 6);
+    font-size: 16px;
+}
+    .btn{
     padding: 12px 28px 12px 28px;
     border-radius: 8px;
     background: rgb(0, 106, 80);
@@ -26,8 +34,8 @@ nav{
 main section {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: left;
+    align-items: start;
     margin-bottom:80px ;
 
 
@@ -86,6 +94,7 @@ main section {
 .vision-container{
         display: flex;
         gap:24px ; 
+        margin-top: 30px;
 }
 .vision-container h3{
     color: rgba(14, 14, 14, 0.8);
@@ -105,6 +114,7 @@ main section {
     letter-spacing: 0%;
     text-align: left;
 }
+
 .vision{
     display: flex;
     flex-direction: column;
@@ -171,10 +181,34 @@ main section {
     width: 1280px;
     margin-top: 80px;
 }
+
+.section2-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.section2-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
 .news-card1{
     width: 1280px;
     border-radius: 24px;
-    background: rgb(255, 255, 255);
+    border-color: black;
+    box-shadow: 0px 6px 50px 0px rgba(15, 14, 14, 0.06);
+   
+    
 }
 .news-card1 {
     display: flex;
@@ -212,6 +246,12 @@ main section {
     border-radius: 24px;
 }
 .news-card2{
+    width: 1280px;
+    border-radius: 24px;
+    border-color: black;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.news-card2{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -219,6 +259,7 @@ main section {
     gap: 32;
     padding: 48px;
 }
+/* donation box style */
 .donation{
    width: 1280px;
 }
@@ -229,20 +270,53 @@ main section {
     padding: 40px;
   
 }
-.dnt-box{
+.dnt-box {
     width: 280px;
     height: 128px;
     padding: 35px;
+}
+.dnt-box:hover{
+    background-color:rgb(198, 228, 214) ;
 }
 .dnt-box{
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255)
-    
+}
+.dnt-box2{
+    width: 280px;
+    height: 128px;
+    padding: 35px;
+}
+.dnt-box2{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214)
 }
 #tk{
     width: 1160px;
     height: 64px;
     font-size: 14pt;
 }
+.section3-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.section3-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+   
