@@ -20,10 +20,7 @@ button:hover{
     background-color:purple;
     font-size: 16px;
 }
-.btn:hover{
-    background-color:rgb(239, 6, 6);
-    font-size: 16px;
-}
+
     .btn{
     padding: 12px 28px 12px 28px;
     border-radius: 8px;
@@ -55,8 +52,6 @@ main section {
 }
 
 .bnr-h{
-    color: rgb(14, 14, 14);
-    font-family: Fira Sans;
     font-size: 56px;
     font-weight: 700;
     line-height: 67px;
@@ -72,8 +67,6 @@ main section {
 /* vision section */
 
 .section-title{
-    color: rgb(14, 14, 14);
-    font-family: Fira Sans;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
@@ -81,8 +74,6 @@ main section {
     text-align: left;
 }
 .section-description{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -96,8 +87,6 @@ main section {
         margin-bottom: 30px;
 }
 .vision-container h3{
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -105,8 +94,6 @@ main section {
     text-align: left;
 }
 .vision-container p{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -153,6 +140,7 @@ main section {
 .btn1{
     width: 118px;
     height: 36px ;
+    margin-top: 20px;
     border-radius: 8px;
     border:none ;
     color: azure;
@@ -188,7 +176,6 @@ main section {
 }
 .quote-section{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -203,8 +190,6 @@ main section {
 }
 
 .section2-title{
-    color: rgb(14, 14, 14);
-    font-family: Fira Sans;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
@@ -213,8 +198,6 @@ main section {
 }
 
 .section2-description {
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -223,9 +206,8 @@ main section {
     margin-bottom:30px ;
 }
 
-
 .news-card1{
-    width: 1280px;
+    width: 1180px;
     border-radius: 24px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -236,7 +218,7 @@ main section {
     justify-content: flex-start;
     align-items: center;
     gap: 32;
-    padding: 40px;
+    padding: 46px;
     margin-bottom: 30px;
 }
 .news1{
@@ -244,8 +226,6 @@ main section {
     height: 290px;
 }
 .news1 p{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -253,8 +233,6 @@ main section {
     text-align: left;
 }
 .news1 h4{
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
@@ -267,7 +245,7 @@ main section {
     border-radius: 24px;
 }
 .news-card2{
-    width: 1280px;
+    width: 1180px;
     border-radius: 24px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -278,7 +256,7 @@ main section {
     justify-content: flex-start;
     align-items: center;
     gap: 32;
-    padding: 40px;
+    padding: 46px;
 }
 /* donation box style */
 .donation{
@@ -321,7 +299,8 @@ main section {
 #tk{
     width: 1160px;
     height: 64px;
-    font-size: 14pt;
+    font-size: 20pt;
+    margin-bottom: 30px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .section3-title{
@@ -341,6 +320,37 @@ main section {
     line-height: 24px;
     letter-spacing: 0%;
     text-align: center;
+}
+/* News later section */
+.news-latter{
+    width: 1280px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 20px;
+}
+.news-latter p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+}
+.wrapper input{
+    width: 600px;
+    height: 56px;
+    border-radius: 8px 0px 0px 8px;
+}
+.ibtn{
+    padding: 12px 28px 12px 28px;
+    border-radius: 0px 8px 8px 0px ;
+    background: rgb(0, 106, 80);
+    border:none ;
+    color: azure; 
 }
 
    
